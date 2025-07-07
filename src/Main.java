@@ -3,7 +3,7 @@ import java.util.*; // import文
 public class Main {
     public static void main(String[] args) {
         // 1. ArrayListの宣言と初期化 (サイズ指定は不要)
-        ArrayList<String> names = new ArrayList<String>();
+        ArrayList<String> names = new ArrayList<>();
 
         // 2. 要素の追加 (addメソッドで末尾にどんどん追加)
         names.add("たなか");
@@ -23,7 +23,7 @@ public class Main {
         System.out.println("リストの要素数: " + count);
 
 
-        Map<String, Integer> prefs = new HashMap<String, Integer>();
+        Map<String, Integer> prefs = new HashMap<>();
         prefs.put("京都府", 255);
         prefs.put("東京都", 1261);
         prefs.put("熊本県", 182);
